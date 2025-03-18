@@ -35,7 +35,7 @@ function crop(input, output, filename) {
 			w = getResult("Width", v); width[v] = w;
 			h = getResult("Height", v); height[v] = h;
 		}
-		file = substring(filename, 11, lengthOf(filename) - 15); // VERIFICAR E CORRIGIR
+		file = substring(filename, 0, lengthOf(filename) - 4); // VERIFICAR E CORRIGIR
 	
 	// analisa as partículas para encontrar as coordenadas das vinhetes (partículas)
 		run("Clear Results");
