@@ -22,7 +22,7 @@ lista_vinhetes = []
 lista_telemetrie = []
 # Diretório contendo as imagens
 station = 'B01'
-raw_directory = "D:/Projects/Antartica_Ecopelagos/Operantar_XLII_Dados/" + station + "/LOKI_12023.01/"
+raw_directory = "D:/Projects/Antartica_Ecopelagos/Operantar_XLII_Dados/LOKI_para_fazer/" + station + "/LOKI_12023.01/"
 #directory_read = "D:/Projects/Antartica_Ecopelagos/Operantar_XLII_Dados/" + station + "/LOKI_12023.01/"
 directory = raw_directory + "Imagens_Subida/"
 directory_vinhetes = raw_directory + "Pictures/"
