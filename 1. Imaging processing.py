@@ -21,11 +21,10 @@ lista_telemetrie = []
 # Diretório contendo as imagens
 station = 'B01'
 raw_directory = "D:/Projects/Antartica_Ecopelagos/Operantar_XLII_Dados/" + station + "/LOKI_12023.01/"
-directory_read = "D:/Projects/Antartica_Ecopelagos/Operantar_XLII_Dados/" + station + "/LOKI_12023.01/"
-#directory_read = "E:/Operantar_XLI_2023_NP_Alte_Maximiano/LOKI/" + station + "/"
+#directory_read = "D:/Projects/Antartica_Ecopelagos/Operantar_XLII_Dados/" + station + "/LOKI_12023.01/"
 directory = raw_directory + "Imagens_Subida/"
-directory_vinhetes = directory_read + "Pictures/"
-directory_data = directory_read + "Telemetrie/"
+directory_vinhetes = raw_directory + "Pictures/"
+directory_data = raw_directory + "Telemetrie/"
 
 
 
