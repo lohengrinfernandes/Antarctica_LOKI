@@ -1,9 +1,9 @@
 'define input e output
 //primeiro input deve ser a origem das imagens grandes invertidas
-input="D:\\Projects\\Antartica_Ecopelagos\\Operantar_XLII_Dados\\B01\\LOKI_12023.01\\output2_1360x1024\\"
+input="D:\\Projects\\Antartica_Ecopelagos\\Operantar_XLII_Dados\\LOKI_para_fazer\\B01\\LOKI_12023.01\\output2_1360x1024\\"
 
 // primeiro output deve ser a pasta onde serao gravadas as vinhetes
-output="D:\\Projects\\Antartica_Ecopelagos\\Operantar_XLII_Dados\\B01\\LOKI_12023.01\\Vinhetes\\"
+output="D:\\Projects\\Antartica_Ecopelagos\\Operantar_XLII_Dados\\LOKI_para_fazer\\B01\\LOKI_12023.01\\Vinhetes\\"
 
 // segundo input deve ser a raiz LOKI onde estará o arquivo result.txt vazio (CRIE ESSE ARQUIVO)
 //input2="D:\\Projects\\Antartica_Ecopelagos\\Operantar_XLI_Dados\\B14\\"
