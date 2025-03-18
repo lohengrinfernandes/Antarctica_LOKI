@@ -5,6 +5,8 @@ Created on Fri Apr  5 18:06:39 2024
 @author: Zbook
 """
 
+#  Será preciso atualizar as linhas:
+#    24 com o nome da estação
 
 #%% Importa bibliotecas de manipulação de arquivos
 
@@ -117,6 +119,8 @@ for elem in lista_vinhetes:
         if hora >= tempo_ini and hora <= tempo_fim:
             shutil.copy(os.path.join(directory_vinhetes, diret, arq), directory)
 
+#%% ETAPA MANUAL NA PASTA IMAGENS SUBIDA
+# AO FINAL DO PROCESSO ANTERIOR, É PRECISO OLHAR AS ÚLTIMAS IMAGENS DA PASTA IMAGENS_SUBIDA PARA ELIMINAR AQUELAS FORA DA ÁGUA
 
 #%% Novo Script para criar a pasta output 1
 
